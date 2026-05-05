@@ -4,6 +4,7 @@ import About from './components/About';
 import Maestros from './components/Maestros';
 import Gallery from './components/Gallery';
 import Videos from './components/Videos';
+import Media from './components/Media';
 import Footer from './components/Footer';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Maestros />
       <Gallery />
       <Videos />
+      <Media />
       <Footer />
     </div>
   );

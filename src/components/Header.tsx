@@ -1,4 +1,4 @@
-import { Music, Menu, X } from 'lucide-react';
+import { Menu, Music, X } from 'lucide-react';
 import { useState } from 'react';
 
 export default function Header() {
@@ -9,6 +9,7 @@ export default function Header() {
     { name: 'A Banda', href: '#sobre' },
     { name: 'Galeria', href: '#galeria' },
     { name: 'Vídeos', href: '#videos' },
+    { name: 'Mídia', href: '#midia' },
     { name: 'Contato', href: '#contato' },
   ];
 
