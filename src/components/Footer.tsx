@@ -1,10 +1,9 @@
-import { Music, Mail, Phone, MapPin, Facebook, Instagram, Send } from 'lucide-react';
+import { Clock, Music, Phone, MapPin, Facebook, Instagram, Send } from 'lucide-react';
 import { useState, FormEvent } from 'react';
 
 export default function Footer() {
   const [formData, setFormData] = useState({
     name: '',
-    email: '',
     message: ''
   });
 
@@ -12,7 +11,7 @@ export default function Footer() {
     e.preventDefault();
     console.log('Form submitted:', formData);
     alert('Mensagem enviada com sucesso! Entraremos em contato em breve.');
-    setFormData({ name: '', email: '', message: '' });
+    setFormData({ name: '', message: '' });
   };
 
   return (
@@ -41,8 +40,29 @@ export default function Footer() {
                 <div>
                   <div className="font-semibold mb-1">Local de Ensaio</div>
                   <div className="text-white/70 text-sm">
-                    Itapeva - SP<br />
-                    Interior do estado de São Paulo
+                    Praça de Eventos<br />
+                    Domingos, das 17h às 19h
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <Clock className="w-5 h-5 text-gold flex-shrink-0 mt-1" />
+                <div>
+                  <div className="font-semibold mb-1">Sede de Ensaio</div>
+                  <div className="text-white/70 text-sm">
+                    Secretaria de Esportes<br />
+                    Avenida Paulina de Moraes, Centro
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <MapPin className="w-5 h-5 text-gold flex-shrink-0 mt-1" />
+                <div>
+                  <div className="font-semibold mb-1">Sede</div>
+                  <div className="text-white/70 text-sm">
+                    Rua Rivadávia Marques Júnior, nº 34
                   </div>
                 </div>
               </div>
@@ -51,15 +71,9 @@ export default function Footer() {
                 <Phone className="w-5 h-5 text-gold" />
                 <div>
                   <div className="font-semibold">Telefone</div>
-                  <div className="text-white/70 text-sm">Informar contato oficial</div>
-                </div>
-              </div>
-
-              <div className="flex items-center gap-3">
-                <Mail className="w-5 h-5 text-gold" />
-                <div>
-                  <div className="font-semibold">E-mail</div>
-                  <div className="text-white/70 text-sm">Informar e-mail oficial</div>
+                  <a href="tel:+5515997228777" className="text-white/70 text-sm hover:text-gold">
+                    (15) 99722-8777
+                  </a>
                 </div>
               </div>
             </div>
@@ -90,7 +104,7 @@ export default function Footer() {
           <div>
             <h3 className="font-display text-3xl font-bold mb-2">Entre em Contato</h3>
             <p className="text-white/70 mb-6">
-              Preencha o formulário abaixo e nossa equipe retornará em breve
+              Envie uma mensagem e nossa equipe retornará pelo telefone informado
             </p>
 
             <form onSubmit={handleSubmit} className="space-y-4">
@@ -106,21 +120,6 @@ export default function Footer() {
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                   className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg focus:outline-none focus:border-gold transition-colors text-white"
                   placeholder="Seu nome"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium mb-2">
-                  E-mail
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  required
-                  value={formData.email}
-                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg focus:outline-none focus:border-gold transition-colors text-white"
-                  placeholder="seu@email.com"
                 />
               </div>
 
