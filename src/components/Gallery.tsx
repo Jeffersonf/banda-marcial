@@ -12,19 +12,25 @@ export default function Gallery() {
       title: 'Homenagem ao Maestro Jair',
       date: 'Exposição Jair, Eterna Música',
       images: 'Acervo da Prefeitura',
-      cover: 'https://www.itapeva.sp.gov.br/admin/globalarq/noticia/noticia/280_219/0a3b2a66c32c28c20ee8588f4f40e111.webp'
+      cover: 'https://www.itapeva.sp.gov.br/admin/globalarq/noticia/noticia/280_219/14a3d88f309a093e3f699178a43efbb6.webp'
     },
     {
       title: 'Tradição Metodista',
       date: 'Raízes da Banda Marcial Paineira',
       images: 'Memória cultural',
-      cover: 'https://www.itapeva.sp.gov.br/admin/globalarq/noticia/noticia/280_219/f85f6ddb5f140297213739145da242c4.webp'
+      cover: 'https://www.itapeva.sp.gov.br/admin/globalarq/noticia/noticia/280_219/c9348ccb3f8f1907f7806ef50c18eae5.webp'
     },
     {
       title: 'Formação Musical',
       date: 'Educação, disciplina e cultura',
       images: 'Registro institucional',
-      cover: 'https://www.itapeva.sp.gov.br/admin/globalarq/noticia/noticia/280_219/2c7dadd6364e3510b4ae187c7dd7a754.webp'
+      cover: 'https://www.itapeva.sp.gov.br/admin/globalarq/noticia/noticia/280_219/8c57789f5769d21497dd59ebb35ef485.webp'
+    },
+    {
+      title: 'Memória da Corporação',
+      date: 'Registros da história musical',
+      images: 'Acervo institucional',
+      cover: 'https://www.itapeva.sp.gov.br/admin/globalarq/noticia/noticia/280_219/cb01bd074313b2e3a485a1e17ff22010.webp'
     }
   ];
 

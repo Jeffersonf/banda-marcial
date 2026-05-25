@@ -14,19 +14,19 @@ export default function Videos() {
       title: 'Ensaio Geral - Formação de Abertura',
       duration: '0:45',
       views: '8.5K',
-      thumbnail: 'https://www.itapeva.sp.gov.br/admin/globalarq/noticia/noticia/280_219/0a3b2a66c32c28c20ee8588f4f40e111.webp'
+      thumbnail: 'https://www.itapeva.sp.gov.br/admin/globalarq/noticia/noticia/280_219/14a3d88f309a093e3f699178a43efbb6.webp'
     },
     {
       title: 'Solo de Trompete - Maestro Roberto',
       duration: '1:20',
       views: '12.3K',
-      thumbnail: 'https://www.itapeva.sp.gov.br/admin/globalarq/noticia/noticia/280_219/f85f6ddb5f140297213739145da242c4.webp'
+      thumbnail: 'https://www.itapeva.sp.gov.br/admin/globalarq/noticia/noticia/280_219/c9348ccb3f8f1907f7806ef50c18eae5.webp'
     },
     {
       title: 'Corpo Coreográfico em Ação',
       duration: '0:58',
       views: '9.8K',
-      thumbnail: 'https://www.itapeva.sp.gov.br/admin/globalarq/noticia/noticia/280_219/2c7dadd6364e3510b4ae187c7dd7a754.webp'
+      thumbnail: 'https://www.itapeva.sp.gov.br/admin/globalarq/noticia/noticia/280_219/8c57789f5769d21497dd59ebb35ef485.webp'
     }
   ];
 

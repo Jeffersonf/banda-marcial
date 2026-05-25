@@ -23,13 +23,13 @@ export default function Maestros() {
     {
       name: 'Prof. Jair Rosa Góes',
       role: 'Maestro fundador',
-      image: 'https://www.itapeva.sp.gov.br/admin/globalarq/noticia/noticia/280_219/0a3b2a66c32c28c20ee8588f4f40e111.webp',
+      image: 'https://www.itapeva.sp.gov.br/admin/globalarq/noticia/noticia/280_219/14a3d88f309a093e3f699178a43efbb6.webp',
       bio: 'Conduziu a Banda Marcial Paineira Bicentenária de Itapeva desde sua criação até 2020, deixando um legado artístico e pedagógico.'
     },
     {
       name: 'Tradição Metodista',
       role: 'Raízes históricas',
-      image: 'https://www.itapeva.sp.gov.br/admin/globalarq/noticia/noticia/280_219/f85f6ddb5f140297213739145da242c4.webp',
+      image: 'https://www.itapeva.sp.gov.br/admin/globalarq/noticia/noticia/280_219/c9348ccb3f8f1907f7806ef50c18eae5.webp',
       bio: 'A história da corporação dialoga com a antiga Banda Marcial Metodista de Itapeva, fundada em 1998, e com as fanfarras escolares da cidade.'
     }
   ];
@@ -128,11 +128,15 @@ export default function Maestros() {
       {isModalOpen && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 px-4 py-8"
+          onClick={() => setIsModalOpen(false)}
           role="dialog"
           aria-modal="true"
           aria-labelledby="alex-history-title"
         >
-          <div className="relative max-h-[90vh] w-full max-w-4xl overflow-hidden rounded-2xl bg-white shadow-2xl">
+          <div
+            className="relative max-h-[90vh] w-full max-w-4xl overflow-hidden rounded-2xl bg-white shadow-2xl"
+            onClick={(event) => event.stopPropagation()}
+          >
             <div className="flex items-start justify-between gap-4 border-b border-gray-100 px-6 py-5 md:px-8">
               <div>
                 <span className="text-sm font-semibold uppercase tracking-wider text-crimson">Atual Maestro</span>

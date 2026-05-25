@@ -106,11 +106,15 @@ export default function About() {
       {isModalOpen && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 px-4 py-8"
+          onClick={() => setIsModalOpen(false)}
           role="dialog"
           aria-modal="true"
           aria-labelledby="band-history-title"
         >
-          <div className="relative max-h-[90vh] w-full max-w-4xl overflow-hidden rounded-2xl bg-white shadow-2xl">
+          <div
+            className="relative max-h-[90vh] w-full max-w-4xl overflow-hidden rounded-2xl bg-white shadow-2xl"
+            onClick={(event) => event.stopPropagation()}
+          >
             <div className="flex items-start justify-between gap-4 border-b border-gray-100 px-6 py-5 md:px-8">
               <div>
                 <span className="text-sm font-semibold uppercase tracking-wider text-crimson">Histórico</span>
