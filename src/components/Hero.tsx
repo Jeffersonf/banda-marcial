@@ -21,10 +21,11 @@ export default function Hero() {
         <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold text-gold mb-6 tracking-tight">
           Banda Marcial
           <span className="block text-white mt-2">Paineira Bicentenária</span>
+          <span className="mt-3 block text-2xl md:text-3xl lg:text-4xl text-white/85">de Itapeva</span>
         </h1>
 
         <p className="text-xl md:text-2xl text-white/90 font-light tracking-wide mb-12">
-          Tradição e excelência musical em Itapeva
+          Tradição, formação musical e memória cultural no interior paulista
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

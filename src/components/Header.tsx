@@ -9,7 +9,7 @@ export default function Header() {
     { name: 'A Banda', href: '#sobre' },
     { name: 'Galeria', href: '#galeria' },
     { name: 'Vídeos', href: '#videos' },
-    { name: 'Mídia', href: '#midia' },
+    { name: 'Notícias', href: '#noticias' },
     { name: 'Contato', href: '#contato' },
   ];
 

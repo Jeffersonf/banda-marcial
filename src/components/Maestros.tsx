@@ -6,11 +6,11 @@ export default function Maestros() {
 
   const alexHistory = [
     'Alex Alves Siqueira nasceu em Itapeva (SP), no dia 14 de junho de 1996, filho de Maria Aparecida Alves e Alécio Quevedo Siqueira. Tem dois irmãos por parte materna e uma irmã por parte paterna. Possui uma trajetória marcada pelo compromisso com a educação, o serviço público, a fé e a cultura musical, destacando-se como professor, maestro e religioso.',
-    'É graduado em Pedagogia (Licenciatura) pela Faculdade de Ciências Sociais e Agrárias de Itapeva - FAIT (2017), em Filosofia (Licenciatura) pela Universidade de Sorocaba - UNISO (2020) e em Teologia (Bacharelado) pelo Instituto Superior de Teologia São João Paulo II da Arquidiocese de Sorocaba (2024). Possui ainda especializações em Docência do Ensino Superior com Ênfase em Políticas Educacionais, Psicopedagogia Institucional e Clínica, e Técnicas de Comunicação e Oratória.',
-    'Na área musical, formou-se em Piano Erudito pela Escola Municipal de Formação Musical Prof. Hugo Bellezia (2017) e estudou Regência de Banda Sinfônica no Conservatório Dramático e Musical "Dr. Carlos de Campos" de Tatuí (2016-2017). Atuou como professor de música em Itapeva, à frente do Coral da Escola Estadual Profa. Nicota Soares, da Fanfarra da Escola Municipal Prof. Hélio de Morais e do Coral Infantil da Escola Municipal Profa. Hilda Frida Gehring.',
-    'Foi pianista do Coral Municipal de Itapeva, sob regência do maestro Professor Elcir Melo, além de acompanhar apresentações teatrais e musicais, como o Teatro da Paixão de Cristo e musicais de Natal com o Ponto de Cultura Jovem. Também participou como tecladista de diversos corais e grupos de canto da Catedral, paróquias e comunidades.',
-    'Trabalhou no Recanto da Criança e do Adolescente da Paróquia Santana e, desde 2011, integra a tradicional Banda Marcial Paineira Bicentenária de Itapeva. Em 2020, com o falecimento do saudoso Maestro Prof. Jair Rosa Góes (in memoriam), recebeu a missão de conduzir a Banda Marcial Paineira Bicentenária de Itapeva, dando continuidade ao legado artístico, pedagógico e social construído ao longo de décadas.',
-    'Como seminarista, dedicou-se especialmente à Música Litúrgica, ministrando cursos de canto pastoral e liturgia em diversas paróquias da região e fora da Diocese, inclusive em parceria com a Editora Paulus (Sorocaba). Atualmente, é Diácono católico da Diocese de Itapeva, maestro fundador do Coral das Paróquias de Itapeva, maestro da Banda Marcial Paineira Bicentenária de Itapeva e professor universitário no curso de Pedagogia da FAIT.'
+    'É graduado em Pedagogia (Licenciatura) pela Faculdade de Ciências Sociais e Agrárias de Itapeva - FAIT (2017), em Filosofia (Licenciatura) pela Universidade de Sorocaba - UNISO (2020) e em Teologia (Bacharelado) pelo Instituto Superior de Teologia São João Paulo II da Arquidiocese de Sorocaba (2024). Possui ainda as seguintes especializações: Docência do Ensino Superior com Ênfase em Políticas Educacionais - Faculdade Corporativa FACESPI (2019); Psicopedagogia Institucional e Clínica - Faculdade Corporativa FACESPI (2019); Técnicas de Comunicação e Oratória - Faculdade Venda Nova do Imigrante - FAVENI (2022).',
+    'Na área musical, formou-se em Piano Erudito pela Escola Municipal de Formação Musical Prof. Hugo Bellezia (2017) e estudou Regência de Banda Sinfônica no Conservatório Dramático e Musical "Dr. Carlos de Campos" de Tatuí (2016-2017). Atuou como professor de música em Itapeva, à frente do Coral da Escola Estadual Profa. Nicota Soares (2013-2016), da Fanfarra da Escola Municipal Prof. Hélio de Morais (2016) e do Coral Infantil da Escola Municipal Profa. Hilda Frida Gehring (2017).',
+    'Foi pianista do Coral Municipal de Itapeva, sob regência do maestro Professor Elcir Melo, além de acompanhar apresentações teatrais e musicais, como pianista do Teatro da Paixão de Cristo e musicais de Natal com o Ponto de Cultura Jovem. Participou ainda como tecladista de diversos corais e grupos de canto da Catedral, bem como em diversas paróquias e comunidades. Trabalhou também no Recanto da Criança e do Adolescente da Paróquia Santana e, desde 2011, integra a tradicional Banda Marcial Paineira Bicentenária de Itapeva.',
+    'Em 2020, com o falecimento do saudoso Maestro Prof. Jair Rosa Góes (in memoriam), a missão de conduzir a Banda Marcial Paineira Bicentenária de Itapeva foi confiada a Alex Alves Siqueira, dando continuidade ao legado artístico, pedagógico e social construído ao longo de décadas.',
+    'Como seminarista, dedicou-se especialmente à Música Litúrgica, ministrando cursos de canto pastoral e liturgia em diversas paróquias da região e fora da Diocese, inclusive em parceria com a Editora Paulus (Sorocaba). Atualmente, é Diácono católico da Diocese de Itapeva, Maestro fundador do Coral das Paróquias de Itapeva, atua como maestro da Banda Marcial Paineira Bicentenária de Itapeva e é professor universitário no curso de Pedagogia da Faculdade de Ciências Sociais e Agrárias de Itapeva - FAIT.'
   ];
 
   const maestros = [
@@ -18,19 +18,19 @@ export default function Maestros() {
       name: 'Alex Alves Siqueira',
       role: 'Atual Maestro',
       image: 'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Professor, maestro e religioso, conduz a Banda Marcial Paineira Bicentenária de Itapeva desde 2020.'
+      bio: 'Professor, maestro e Diácono católico da Diocese de Itapeva, conduz a banda desde 2020 dando continuidade ao legado do Prof. Jair Rosa Góes.'
     },
     {
-      name: 'Corpo Musical',
-      role: 'Regente Assistente',
+      name: 'Prof. Jair Rosa Góes',
+      role: 'Maestro fundador',
       image: 'https://images.pexels.com/photos/3184611/pexels-photo-3184611.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Equipe dedicada à formação musical, aos ensaios e às apresentações da banda.'
+      bio: 'Conduziu a Banda Marcial Paineira Bicentenária de Itapeva desde sua criação até 2020, deixando um legado artístico e pedagógico.'
     },
     {
-      name: 'Percussão',
-      role: 'Mestre de Bateria',
+      name: 'Tradição Metodista',
+      role: 'Raízes históricas',
       image: 'https://images.pexels.com/photos/3184639/pexels-photo-3184639.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Seção rítmica responsável pela energia, precisão e presença marcial nas apresentações.'
+      bio: 'A história da corporação dialoga com a antiga Banda Marcial Metodista de Itapeva, fundada em 1998, e com as fanfarras escolares da cidade.'
     }
   ];
 
@@ -67,7 +67,7 @@ export default function Maestros() {
             Maestros e Corpo Musical
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Nossa equipe de profissionais dedicados guia a banda rumo à excelência artística
+            Liderança, memória e formação musical a serviço da cultura de Itapeva
           </p>
         </div>
 

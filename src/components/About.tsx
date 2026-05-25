@@ -7,7 +7,7 @@ export default function About() {
   const history = [
     'Fundada em 21 de setembro de 2010, Dia da Árvore, e inaugurada em 21 de dezembro de 2010, a Banda Marcial Paineira Bicentenária de Itapeva nasceu com a missão de promover a educação musical, a cultura e a preservação ambiental, em referência ao tombamento histórico da Paineira Bicentenária, símbolo da cidade (Decreto de Tombamento nº 1.046, de 14/06/1989).',
     'Reconhecida pela excelência, tradição e inovação, a banda se destaca nacional e internacionalmente pelo repertório diversificado e evoluções coreográficas, participando de importantes eventos sociais, cívicos e religiosos em toda a região. Suas apresentações foram registradas por diversos canais de televisão e já marcaram presença na maior Festa de Peão de Boiadeiro da América Latina, em Barretos, levando com orgulho a representatividade do município de Itapeva.',
-    'Com raízes na antiga Fanfarra da Escola Estadual Zulmira de Oliveira (1983) e na Banda Marcial Metodista (1998), hoje extintas, a Banda Marcial Paineira Bicentenária dá continuidade à tradição artística e musical no interior do estado de São Paulo.',
+    'Com raízes na antiga Fanfarra da Escola Estadual Zulmira de Oliveira (1983) e na Banda Marcial Metodista de Itapeva (1998), hoje extintas, a Banda Marcial Paineira Bicentenária dá continuidade à tradição artística e musical no interior do estado de São Paulo.',
     'O maestro fundador, Prof. Jair Rosa Góes, conduziu a banda desde a sua criação até 2020, quando, com seu falecimento, a missão de reger a corporação foi confiada ao Maestro Alex Alves Siqueira, que mantém o legado de excelência e formação artística e musical da banda.',
     'Em 20 de setembro de 2025, no desfile dos 256 anos do município, a banda foi reativada de forma surpreendente e histórica para a população, que aguardava ansiosamente o desfile há cinco anos, acessando memórias afetivas e despertando emoções profundas, recebendo calorosos aplausos e manifestações de orgulho e entusiasmo da comunidade.',
     'Pelo seu histórico tradicional e relevante contribuição à cultura local, a banda foi oficialmente reconhecida como utilidade pública pela Lei nº 156/2019, reforçando sua importância social, educativa e cultural.',
@@ -23,9 +23,9 @@ export default function About() {
     },
     {
       icon: Leaf,
-      title: 'Símbolo',
-      value: 'Paineira',
-      description: 'Referência ao patrimônio tombado'
+      title: 'Tradição',
+      value: '1983',
+      description: 'Raízes na Fanfarra Zulmira e na Banda Metodista'
     },
     {
       icon: Landmark,
@@ -53,11 +53,13 @@ export default function About() {
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
                 Nascida em 2010, a Banda Marcial Paineira Bicentenária de Itapeva une educação musical,
-                cultura, disciplina e preservação da memória local.
+                cultura, disciplina e preservação da memória local em torno da Paineira Bicentenária,
+                símbolo tombado do município.
               </p>
               <p>
-                Com raízes na tradição das fanfarras e bandas marciais de Itapeva, a corporação segue
-                formando jovens e adultos, representando o município em eventos cívicos, religiosos e culturais.
+                A corporação carrega raízes da Fanfarra da Escola Estadual Zulmira de Oliveira e da
+                Banda Marcial Metodista de Itapeva, mantendo viva uma tradição artística importante
+                para o interior paulista.
               </p>
             </div>
 

@@ -31,8 +31,8 @@ export default function Footer() {
             </div>
 
             <p className="text-white/70 mb-8 leading-relaxed">
-              Há mais de 200 anos levando música e tradição para Itapeva e toda região.
-              Entre em contato conosco para contratar nossa banda para seu evento.
+              A Banda Marcial Paineira Bicentenária de Itapeva promove educação musical,
+              cultura, disciplina e preservação da memória local.
             </p>
 
             <div className="space-y-4 mb-8">
@@ -41,8 +41,8 @@ export default function Footer() {
                 <div>
                   <div className="font-semibold mb-1">Local de Ensaio</div>
                   <div className="text-white/70 text-sm">
-                    Rua da Música, 200 - Centro<br />
-                    Itapeva - SP, 18400-000
+                    Itapeva - SP<br />
+                    Interior do estado de São Paulo
                   </div>
                 </div>
               </div>
@@ -51,7 +51,7 @@ export default function Footer() {
                 <Phone className="w-5 h-5 text-gold" />
                 <div>
                   <div className="font-semibold">Telefone</div>
-                  <div className="text-white/70 text-sm">(15) 3524-0000</div>
+                  <div className="text-white/70 text-sm">Informar contato oficial</div>
                 </div>
               </div>
 
@@ -59,7 +59,7 @@ export default function Footer() {
                 <Mail className="w-5 h-5 text-gold" />
                 <div>
                   <div className="font-semibold">E-mail</div>
-                  <div className="text-white/70 text-sm">contato@paineira.org.br</div>
+                  <div className="text-white/70 text-sm">Informar e-mail oficial</div>
                 </div>
               </div>
             </div>
@@ -153,7 +153,7 @@ export default function Footer() {
         <div className="border-t border-white/10 pt-8">
           <div className="text-center text-white/50 text-sm">
             <p>&copy; {new Date().getFullYear()} Banda Marcial Paineira Bicentenária. Todos os direitos reservados.</p>
-            <p className="mt-2">Fundada em 1823 - 200 anos de tradição musical em Itapeva, SP</p>
+            <p className="mt-2">Fundada em 2010, com raízes na Fanfarra Zulmira e na Banda Marcial Metodista de Itapeva.</p>
           </div>
         </div>
       </div>
