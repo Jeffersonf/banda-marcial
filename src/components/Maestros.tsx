@@ -17,19 +17,19 @@ export default function Maestros() {
     {
       name: 'Alex Alves Siqueira',
       role: 'Atual Maestro',
-      image: 'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://www.itapeva.sp.gov.br/admin/globalarq/noticia/noticia/651_366/4ddfc78d30be6c754a6dfc887a378079.jpeg',
       bio: 'Professor, maestro e Diácono católico da Diocese de Itapeva, conduz a banda desde 2020 dando continuidade ao legado do Prof. Jair Rosa Góes.'
     },
     {
       name: 'Prof. Jair Rosa Góes',
       role: 'Maestro fundador',
-      image: 'https://images.pexels.com/photos/3184611/pexels-photo-3184611.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://www.itapeva.sp.gov.br/admin/globalarq/noticia/noticia/280_219/0a3b2a66c32c28c20ee8588f4f40e111.webp',
       bio: 'Conduziu a Banda Marcial Paineira Bicentenária de Itapeva desde sua criação até 2020, deixando um legado artístico e pedagógico.'
     },
     {
       name: 'Tradição Metodista',
       role: 'Raízes históricas',
-      image: 'https://images.pexels.com/photos/3184639/pexels-photo-3184639.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://www.itapeva.sp.gov.br/admin/globalarq/noticia/noticia/280_219/f85f6ddb5f140297213739145da242c4.webp',
       bio: 'A história da corporação dialoga com a antiga Banda Marcial Metodista de Itapeva, fundada em 1998, e com as fanfarras escolares da cidade.'
     }
   ];

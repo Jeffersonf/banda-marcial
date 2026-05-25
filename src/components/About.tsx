@@ -77,8 +77,8 @@ export default function About() {
           <div className="relative">
             <div className="aspect-[4/5] rounded-2xl overflow-hidden border-4 border-gold shadow-2xl">
               <img
-                src="https://images.pexels.com/photos/7520385/pexels-photo-7520385.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Banda Marcial em formação"
+                src="https://www.itapeva.sp.gov.br/admin/globalarq/noticia/noticia/651_366/4ddfc78d30be6c754a6dfc887a378079.jpeg"
+                alt="Integrantes da Banda Marcial Paineira Bicentenária de Itapeva"
                 className="w-full h-full object-cover"
               />
             </div>

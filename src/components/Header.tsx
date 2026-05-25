@@ -5,7 +5,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
-    { name: 'Home', href: '#home' },
+    { name: 'Início', href: '#home' },
     { name: 'A Banda', href: '#sobre' },
     { name: 'Galeria', href: '#galeria' },
     { name: 'Vídeos', href: '#videos' },
@@ -43,7 +43,7 @@ export default function Header() {
             href="#contato"
             className="hidden lg:block px-6 py-3 bg-gradient-to-r from-crimson to-crimson-dark text-white font-semibold rounded-md border-2 border-gold hover:shadow-lg hover:shadow-gold/30 transition-all"
           >
-            Contrate a Banda
+            Entre em contato
           </a>
 
           <button
@@ -72,7 +72,7 @@ export default function Header() {
               onClick={() => setIsMenuOpen(false)}
               className="block w-full px-6 py-3 bg-gradient-to-r from-crimson to-crimson-dark text-white font-semibold rounded-md border-2 border-gold text-center mt-4"
             >
-              Contrate a Banda
+              Entre em contato
             </a>
           </nav>
         )}

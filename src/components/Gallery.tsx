@@ -1,82 +1,32 @@
-import { useState } from 'react';
 import { Calendar, Image as ImageIcon } from 'lucide-react';
 
 export default function Gallery() {
-  const [activeYear, setActiveYear] = useState('2025');
-
   const albums = [
     {
-      year: '2025',
-      title: 'Desfile de Natal 2024',
-      date: 'Dezembro 2024',
-      images: 45,
-      cover: 'https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg?auto=compress&cs=tinysrgb&w=800'
+      title: 'Retorno da Banda',
+      date: 'Desfile dos 256 anos de Itapeva',
+      images: 'Registro histórico',
+      cover: 'https://www.itapeva.sp.gov.br/admin/globalarq/noticia/noticia/651_366/4ddfc78d30be6c754a6dfc887a378079.jpeg'
     },
     {
-      year: '2025',
-      title: 'Apresentação Cívica - 7 de Setembro',
-      date: 'Setembro 2024',
-      images: 62,
-      cover: 'https://images.pexels.com/photos/3014856/pexels-photo-3014856.jpeg?auto=compress&cs=tinysrgb&w=800'
+      title: 'Homenagem ao Maestro Jair',
+      date: 'Exposição Jair, Eterna Música',
+      images: 'Acervo da Prefeitura',
+      cover: 'https://www.itapeva.sp.gov.br/admin/globalarq/noticia/noticia/280_219/0a3b2a66c32c28c20ee8588f4f40e111.webp'
     },
     {
-      year: '2025',
-      title: 'Festival Regional de Bandas',
-      date: 'Agosto 2024',
-      images: 38,
-      cover: 'https://images.pexels.com/photos/1916824/pexels-photo-1916824.jpeg?auto=compress&cs=tinysrgb&w=800'
+      title: 'Tradição Metodista',
+      date: 'Raízes da Banda Marcial Paineira',
+      images: 'Memória cultural',
+      cover: 'https://www.itapeva.sp.gov.br/admin/globalarq/noticia/noticia/280_219/f85f6ddb5f140297213739145da242c4.webp'
     },
     {
-      year: '2024',
-      title: 'Concerto de Aniversário',
-      date: 'Maio 2024',
-      images: 55,
-      cover: 'https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=800'
-    },
-    {
-      year: '2024',
-      title: 'Desfile Cívico Municipal',
-      date: 'Novembro 2023',
-      images: 72,
-      cover: 'https://images.pexels.com/photos/1047930/pexels-photo-1047930.jpeg?auto=compress&cs=tinysrgb&w=800'
-    },
-    {
-      year: '2024',
-      title: 'Apresentação Escolar',
-      date: 'Outubro 2023',
-      images: 41,
-      cover: 'https://images.pexels.com/photos/1863440/pexels-photo-1863440.jpeg?auto=compress&cs=tinysrgb&w=800'
-    },
-    {
-      year: 'historico',
-      title: 'Década de 1990',
-      date: 'Arquivo Histórico',
-      images: 28,
-      cover: 'https://images.pexels.com/photos/442540/pexels-photo-442540.jpeg?auto=compress&cs=tinysrgb&w=800'
-    },
-    {
-      year: 'historico',
-      title: 'Década de 1980',
-      date: 'Arquivo Histórico',
-      images: 19,
-      cover: 'https://images.pexels.com/photos/1751731/pexels-photo-1751731.jpeg?auto=compress&cs=tinysrgb&w=800'
-    },
-    {
-      year: 'historico',
-      title: 'Década de 1970',
-      date: 'Arquivo Histórico',
-      images: 15,
-      cover: 'https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?auto=compress&cs=tinysrgb&w=800'
+      title: 'Formação Musical',
+      date: 'Educação, disciplina e cultura',
+      images: 'Registro institucional',
+      cover: 'https://www.itapeva.sp.gov.br/admin/globalarq/noticia/noticia/280_219/2c7dadd6364e3510b4ae187c7dd7a754.webp'
     }
   ];
-
-  const years = [
-    { id: '2025', label: '2025' },
-    { id: '2024', label: '2024' },
-    { id: 'historico', label: 'Acervo Histórico' }
-  ];
-
-  const filteredAlbums = albums.filter(album => album.year === activeYear);
 
   return (
     <section id="galeria" className="py-20 bg-black">
@@ -87,31 +37,15 @@ export default function Gallery() {
             <div className="h-0.5 w-16 bg-crimson mt-2 mx-auto" />
           </div>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-white mb-4">
-            Galeria de Apresentações
+            Galeria
           </h2>
           <p className="text-white/70 max-w-2xl mx-auto">
-            Reviva os momentos mais marcantes de nossas apresentações através dos anos
+            Registros da Banda Marcial Paineira Bicentenária de Itapeva e de sua memória musical
           </p>
         </div>
 
-        <div className="flex justify-center gap-4 mb-12 flex-wrap">
-          {years.map((year) => (
-            <button
-              key={year.id}
-              onClick={() => setActiveYear(year.id)}
-              className={`px-6 py-3 rounded-lg font-semibold transition-all border-2 ${
-                activeYear === year.id
-                  ? 'bg-gradient-to-r from-crimson to-crimson-dark text-white border-gold shadow-lg shadow-gold/30'
-                  : 'bg-white/5 text-white/70 border-white/10 hover:border-gold/50 hover:text-white'
-              }`}
-            >
-              {year.label}
-            </button>
-          ))}
-        </div>
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredAlbums.map((album, index) => (
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {albums.map((album, index) => (
             <div
               key={index}
               className="group relative overflow-hidden rounded-2xl border-2 border-gold/20 hover:border-gold transition-all cursor-pointer"
@@ -134,18 +68,12 @@ export default function Gallery() {
                 <h3 className="font-display text-xl font-bold text-white mb-2">{album.title}</h3>
                 <div className="flex items-center gap-2 text-white/70 text-sm">
                   <ImageIcon size={16} />
-                  <span>{album.images} fotos</span>
+                  <span>{album.images}</span>
                 </div>
               </div>
             </div>
           ))}
         </div>
-
-        {filteredAlbums.length === 0 && (
-          <div className="text-center py-12">
-            <p className="text-white/50 text-lg">Nenhum álbum disponível para este período</p>
-          </div>
-        )}
       </div>
     </section>
   );
